@@ -38,18 +38,22 @@ Partial Class MyMoney
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(1, 96)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(27, 122)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(70, 13)
+        Me.Label5.Size = New System.Drawing.Size(68, 16)
         Me.Label5.TabIndex = 18
         Me.Label5.Text = "เงินเดือนทั้งปี"
         '
         'btnClose
         '
         Me.btnClose.BackColor = System.Drawing.Color.Lime
-        Me.btnClose.Location = New System.Drawing.Point(208, 242)
+        Me.btnClose.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClose.Location = New System.Drawing.Point(277, 298)
+        Me.btnClose.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(75, 23)
+        Me.btnClose.Size = New System.Drawing.Size(100, 28)
         Me.btnClose.TabIndex = 16
         Me.btnClose.Text = "ปิด"
         Me.btnClose.UseVisualStyleBackColor = False
@@ -57,9 +61,11 @@ Partial Class MyMoney
         'btnCalculate
         '
         Me.btnCalculate.BackColor = System.Drawing.Color.Lime
-        Me.btnCalculate.Location = New System.Drawing.Point(103, 242)
+        Me.btnCalculate.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCalculate.Location = New System.Drawing.Point(137, 298)
+        Me.btnCalculate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnCalculate.Name = "btnCalculate"
-        Me.btnCalculate.Size = New System.Drawing.Size(75, 23)
+        Me.btnCalculate.Size = New System.Drawing.Size(100, 28)
         Me.btnCalculate.TabIndex = 17
         Me.btnCalculate.Text = "คำนวณ"
         Me.btnCalculate.UseVisualStyleBackColor = False
@@ -67,81 +73,97 @@ Partial Class MyMoney
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(1, 171)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(27, 214)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(126, 13)
+        Me.Label4.Size = New System.Drawing.Size(125, 16)
         Me.Label4.TabIndex = 15
         Me.Label4.Text = "เงินได้คงเหลือหลังหักภาษี"
         '
         'lblTotal
         '
         Me.lblTotal.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lblTotal.Location = New System.Drawing.Point(143, 171)
+        Me.lblTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTotal.Location = New System.Drawing.Point(191, 210)
+        Me.lblTotal.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTotal.Name = "lblTotal"
-        Me.lblTotal.Size = New System.Drawing.Size(103, 24)
+        Me.lblTotal.Size = New System.Drawing.Size(137, 30)
         Me.lblTotal.TabIndex = 11
         Me.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblYear
         '
         Me.lblYear.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lblYear.Location = New System.Drawing.Point(143, 85)
+        Me.lblYear.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblYear.Location = New System.Drawing.Point(191, 105)
+        Me.lblYear.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblYear.Name = "lblYear"
-        Me.lblYear.Size = New System.Drawing.Size(103, 24)
+        Me.lblYear.Size = New System.Drawing.Size(137, 30)
         Me.lblYear.TabIndex = 12
         Me.lblYear.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblTax
         '
         Me.lblTax.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lblTax.Location = New System.Drawing.Point(143, 120)
+        Me.lblTax.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTax.Location = New System.Drawing.Point(191, 148)
+        Me.lblTax.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTax.Name = "lblTax"
-        Me.lblTax.Size = New System.Drawing.Size(103, 24)
+        Me.lblTax.Size = New System.Drawing.Size(137, 30)
         Me.lblTax.TabIndex = 13
         Me.lblTax.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(1, 131)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(27, 165)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(75, 13)
+        Me.Label3.Size = New System.Drawing.Size(78, 16)
         Me.Label3.TabIndex = 14
         Me.Label3.Text = "ภาษีที่ต้องชำระ"
         '
         'txtSalary
         '
-        Me.txtSalary.Location = New System.Drawing.Point(146, 51)
+        Me.txtSalary.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSalary.Location = New System.Drawing.Point(195, 63)
+        Me.txtSalary.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtSalary.Multiline = True
         Me.txtSalary.Name = "txtSalary"
-        Me.txtSalary.Size = New System.Drawing.Size(100, 26)
+        Me.txtSalary.Size = New System.Drawing.Size(132, 31)
         Me.txtSalary.TabIndex = 10
         Me.txtSalary.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(1, 60)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(27, 78)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(51, 13)
+        Me.Label2.Size = New System.Drawing.Size(47, 16)
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "เงินเดือน"
         '
         'Label1
         '
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(100, 9)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(133, 11)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(146, 23)
+        Me.Label1.Size = New System.Drawing.Size(195, 28)
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "การคำนวณหารายได้ทั้งปี"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'MyMoney
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(330, 295)
+        Me.ClientSize = New System.Drawing.Size(475, 382)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.btnCalculate)
@@ -153,6 +175,8 @@ Partial Class MyMoney
         Me.Controls.Add(Me.txtSalary)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "MyMoney"
         Me.Text = "MyMoney"
         Me.ResumeLayout(False)

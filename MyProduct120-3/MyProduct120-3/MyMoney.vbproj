@@ -72,6 +72,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmJob4.Designer.vb">
+      <DependentUpon>frmJob4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmJob4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLab3.Designer.vb">
+      <DependentUpon>frmLab3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLab3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLab5.Designer.vb">
+      <DependentUpon>frmLab5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLab5.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmProduct.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +120,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmJob4.resx">
+      <DependentUpon>frmJob4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLab3.resx">
+      <DependentUpon>frmLab3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLab5.resx">
+      <DependentUpon>frmLab5.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmProduct.resx">
       <DependentUpon>frmProduct.vb</DependentUpon>
     </EmbeddedResource>

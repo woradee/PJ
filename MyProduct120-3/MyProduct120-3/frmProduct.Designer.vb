@@ -43,6 +43,7 @@ Partial Class frmProduct
         'Label1
         '
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(198, 44)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(153, 23)
@@ -53,6 +54,7 @@ Partial Class frmProduct
         'Label2
         '
         Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(61, 96)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(82, 23)
@@ -63,6 +65,7 @@ Partial Class frmProduct
         'Label3
         '
         Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(61, 137)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(166, 23)
@@ -72,6 +75,7 @@ Partial Class frmProduct
         '
         'txtVistraGluta
         '
+        Me.txtVistraGluta.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtVistraGluta.Location = New System.Drawing.Point(316, 96)
         Me.txtVistraGluta.Multiline = True
         Me.txtVistraGluta.Name = "txtVistraGluta"
@@ -80,6 +84,7 @@ Partial Class frmProduct
         '
         'txtComputer
         '
+        Me.txtComputer.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtComputer.Location = New System.Drawing.Point(316, 137)
         Me.txtComputer.Multiline = True
         Me.txtComputer.Name = "txtComputer"
@@ -88,6 +93,7 @@ Partial Class frmProduct
         '
         'Label4
         '
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(64, 213)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(79, 23)
@@ -97,6 +103,7 @@ Partial Class frmProduct
         'Label5
         '
         Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(61, 239)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(82, 23)
@@ -107,6 +114,7 @@ Partial Class frmProduct
         'Label6
         '
         Me.Label6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(61, 280)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(166, 23)
@@ -117,6 +125,7 @@ Partial Class frmProduct
         'lblVistraGluta
         '
         Me.lblVistraGluta.BackColor = System.Drawing.Color.White
+        Me.lblVistraGluta.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblVistraGluta.Location = New System.Drawing.Point(313, 239)
         Me.lblVistraGluta.Name = "lblVistraGluta"
         Me.lblVistraGluta.Size = New System.Drawing.Size(118, 23)
@@ -126,6 +135,7 @@ Partial Class frmProduct
         'lblComputer
         '
         Me.lblComputer.BackColor = System.Drawing.Color.White
+        Me.lblComputer.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblComputer.Location = New System.Drawing.Point(313, 280)
         Me.lblComputer.Name = "lblComputer"
         Me.lblComputer.Size = New System.Drawing.Size(118, 23)
@@ -135,6 +145,7 @@ Partial Class frmProduct
         'Label9
         '
         Me.Label9.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(61, 354)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(105, 23)
@@ -145,6 +156,7 @@ Partial Class frmProduct
         'lblCommistotal
         '
         Me.lblCommistotal.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.lblCommistotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCommistotal.Location = New System.Drawing.Point(313, 354)
         Me.lblCommistotal.Name = "lblCommistotal"
         Me.lblCommistotal.Size = New System.Drawing.Size(118, 23)
@@ -154,6 +166,7 @@ Partial Class frmProduct
         'Label11
         '
         Me.Label11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(61, 314)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(122, 23)
@@ -164,6 +177,7 @@ Partial Class frmProduct
         'lblProducttotal
         '
         Me.lblProducttotal.BackColor = System.Drawing.Color.White
+        Me.lblProducttotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblProducttotal.Location = New System.Drawing.Point(313, 314)
         Me.lblProducttotal.Name = "lblProducttotal"
         Me.lblProducttotal.Size = New System.Drawing.Size(118, 23)
@@ -172,6 +186,7 @@ Partial Class frmProduct
         '
         'btnCalculate
         '
+        Me.btnCalculate.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCalculate.Location = New System.Drawing.Point(231, 411)
         Me.btnCalculate.Name = "btnCalculate"
         Me.btnCalculate.Size = New System.Drawing.Size(75, 23)
@@ -181,6 +196,7 @@ Partial Class frmProduct
         '
         'btnClose
         '
+        Me.btnClose.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnClose.Location = New System.Drawing.Point(337, 411)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(75, 23)
