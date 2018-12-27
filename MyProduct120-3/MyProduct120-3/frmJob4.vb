@@ -31,14 +31,14 @@
     End Sub
 
     Private Sub radGenDate_CheckedChanged(sender As Object, e As EventArgs) Handles radGenDate.CheckedChanged
-        Dim mDate As Date = Date.Now
+        Dim Day As Date = Date.Now
 
-        lblDate.Text = mDate
+        lblDate.Text = Day
     End Sub
 
     Private Sub radShortDate_CheckedChanged(sender As Object, e As EventArgs) Handles radShortDate.CheckedChanged
-        Dim mDate As Date = Date.Now
-        lblDate.Text = mDate.Date
+        Dim day As Date = Date.Now
+        lblDate.Text = day.Date
     End Sub
 
     Private Sub radLongDate_CheckedChanged(sender As Object, e As EventArgs) Handles radLongDate.CheckedChanged

@@ -1,5 +1,5 @@
 ﻿Public Class frmLab5
-    Dim decTotal, discount, Net, decCredit, price, unit As Double
+    Dim decTotal, totaldiscount, discount, decCredit, totalprice, unit As Double
     Dim tt As String
 
     Private Sub btnCalculate_Click_1(sender As Object, e As EventArgs) Handles btnCalculate.Click
@@ -11,29 +11,29 @@
                 If radPaid.Checked = True Then
                     If decTotal < 1000 Then
                         discount = 0
-                        Net = discount
-                        price = decTotal - Net
+                        totaldiscount = discount
+                        totalprice = decTotal - totaldiscount
                     ElseIf decTotal < 5000 Then
                         discount = 5 / 100
-                        Net = decTotal * discount
-                        price = decTotal - Net
+                        totaldiscount = decTotal * discount
+                        totalprice = decTotal - totaldiscount
                     ElseIf decTotal < 10000 Then
                         discount = 10 / 100
-                        Net = decTotal * discount
-                        price = decTotal - Net
+                        totaldiscount = decTotal * discount
+                        totalprice = decTotal - totaldiscount
                     Else
                         discount = 15 / 100
-                        Net = decTotal * discount
-                        price = decTotal - Net
+                        totaldiscount = decTotal * discount
+                        totalprice = decTotal - totaldiscount 
 
                     End If
-                    lblDiscount.Text = Net
-                    lblPaid.Text = price
+                    lblDiscount.Text = totaldiscount
+                    lblPaid.Text = totalprice
                     lblCredit.Text = "ไม่มีค่าค้างชำระ"
                 ElseIf radCredit.Checked = True Then
                     lblDiscount.Text = "ไม่มีส่วนลด"
-                    lblPaid.Text = Net
-                    lblCredit.Text = Net
+                    lblPaid.Text = lblTotal.Text
+                    lblCredit.Text = lblTotal.Text
 
 
 
@@ -54,9 +54,9 @@
     End Sub
 
     Private Sub txtUnit_TextChanged(sender As Object, e As EventArgs) Handles txtUnit.TextChanged
-        price = txtPrice.Text
+        totalprice = txtPrice.Text
         unit = Val(txtUnit.Text)
-        decTotal = price * unit
+        decTotal = totalprice * unit
         lblTotal.Text = decTotal
 
     End Sub
@@ -66,19 +66,16 @@
     End Sub
 
     Private Sub radMember_CheckedChanged(sender As Object, e As EventArgs) Handles radMember.CheckedChanged
-        If radMember.Checked Then
-            gbCusType.Enabled = True
+        If radMember.Checked = True Then
+            gbPay.Enabled = True
         End If
 
     End Sub
 
     Private Sub radOther_CheckedChanged(sender As Object, e As EventArgs) Handles radOther.CheckedChanged
-        If radMember.Checked Then
-            gbPay.Enabled = False
-            gbPay.Enabled = True
 
-
-        End If
+        gbPay.Enabled = False
+        radPaid.Enabled = True
 
     End Sub
 

@@ -449,7 +449,7 @@ Partial Class frmLab5
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmLab5"
-        Me.Text = "3"
+        Me.Text = "taxation"
         Me.GroupBox1.ResumeLayout(False)
         Me.gbCusType.ResumeLayout(False)
         Me.gbCusType.PerformLayout()

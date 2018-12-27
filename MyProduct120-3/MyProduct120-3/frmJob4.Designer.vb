@@ -170,6 +170,7 @@ Partial Class frmJob4
         Me.txtSalary.Name = "txtSalary"
         Me.txtSalary.Size = New System.Drawing.Size(212, 21)
         Me.txtSalary.TabIndex = 0
+        Me.txtSalary.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'txtSale
         '
@@ -178,6 +179,7 @@ Partial Class frmJob4
         Me.txtSale.Name = "txtSale"
         Me.txtSale.Size = New System.Drawing.Size(212, 21)
         Me.txtSale.TabIndex = 1
+        Me.txtSale.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'lblYearSalary
         '
