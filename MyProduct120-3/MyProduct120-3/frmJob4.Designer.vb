@@ -50,7 +50,7 @@ Partial Class frmJob4
         'Label1
         '
         Me.Label1.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(227, 47)
+        Me.Label1.Location = New System.Drawing.Point(259, 47)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(240, 23)
         Me.Label1.TabIndex = 0
@@ -295,6 +295,7 @@ Partial Class frmJob4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(751, 482)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.btnCalTax)

@@ -426,6 +426,7 @@ Partial Class frmLab5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.DarkOrange
         Me.ClientSize = New System.Drawing.Size(791, 663)
         Me.Controls.Add(Me.lblCredit)
         Me.Controls.Add(Me.lblPaid)

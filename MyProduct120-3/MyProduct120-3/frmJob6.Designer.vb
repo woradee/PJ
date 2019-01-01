@@ -71,10 +71,10 @@ Partial Class frmJob6
         '
         'Label1
         '
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(309, 36)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Tai Le", 20.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(282, 33)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(240, 23)
+        Me.Label1.Size = New System.Drawing.Size(304, 39)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "โปรแกรมคำนวณราคาขายรถยนต์"
         '
@@ -542,6 +542,7 @@ Partial Class frmJob6
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(797, 564)
         Me.Controls.Add(Me.lblStartPrice)
         Me.Controls.Add(Me.lblPaidPrice)
