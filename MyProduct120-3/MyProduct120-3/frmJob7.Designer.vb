@@ -53,7 +53,7 @@ Partial Class frmJob7
         Me.cb0Output.Location = New System.Drawing.Point(509, 126)
         Me.cb0Output.Name = "cb0Output"
         Me.cb0Output.Size = New System.Drawing.Size(132, 21)
-        Me.cb0Output.TabIndex = 1
+        Me.cb0Output.TabIndex = 2
         '
         'btnMove
         '
@@ -106,7 +106,7 @@ Partial Class frmJob7
         Me.btnAdd.Location = New System.Drawing.Point(133, 429)
         Me.btnAdd.Name = "btnAdd"
         Me.btnAdd.Size = New System.Drawing.Size(127, 34)
-        Me.btnAdd.TabIndex = 2
+        Me.btnAdd.TabIndex = 1
         Me.btnAdd.Text = " เพิ่ม"
         Me.btnAdd.UseVisualStyleBackColor = False
         '
@@ -117,7 +117,7 @@ Partial Class frmJob7
         Me.btnClear.Location = New System.Drawing.Point(496, 429)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(127, 34)
-        Me.btnClear.TabIndex = 2
+        Me.btnClear.TabIndex = 5
         Me.btnClear.Text = " เคลียร์"
         Me.btnClear.UseVisualStyleBackColor = False
         '
@@ -128,7 +128,7 @@ Partial Class frmJob7
         Me.btnExit.Location = New System.Drawing.Point(312, 514)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(127, 34)
-        Me.btnExit.TabIndex = 2
+        Me.btnExit.TabIndex = 6
         Me.btnExit.Text = "ปิหน้าต่าง"
         Me.btnExit.UseVisualStyleBackColor = False
         '
@@ -139,7 +139,7 @@ Partial Class frmJob7
         Me.txtAdd.Multiline = True
         Me.txtAdd.Name = "txtAdd"
         Me.txtAdd.Size = New System.Drawing.Size(184, 30)
-        Me.txtAdd.TabIndex = 3
+        Me.txtAdd.TabIndex = 0
         Me.txtAdd.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'lblOutput
@@ -160,7 +160,7 @@ Partial Class frmJob7
         Me.lstAdd.Location = New System.Drawing.Point(104, 126)
         Me.lstAdd.Name = "lstAdd"
         Me.lstAdd.Size = New System.Drawing.Size(230, 276)
-        Me.lstAdd.TabIndex = 5
+        Me.lstAdd.TabIndex = 3
         '
         'frmJob7
         '
