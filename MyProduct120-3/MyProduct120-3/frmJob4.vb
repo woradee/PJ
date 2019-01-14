@@ -4,6 +4,7 @@
         Console.WriteLine(Now.ToShortDateString())
         lblDate.Text = Now
         radGenDate.Checked = True
+        'lblDate.Text = FormatDateTime(Today, DateFormat.GeneralDate)
 
     End Sub
 
@@ -31,19 +32,21 @@
     End Sub
 
     Private Sub radGenDate_CheckedChanged(sender As Object, e As EventArgs) Handles radGenDate.CheckedChanged
-        Dim Day As Date = Date.Now
-
-        lblDate.Text = Day
+        Dim Now As Date = Date.Now
+        lblDate.Text = Now
+        'lblDate.Text = FormatDateTime(Today, DateFormat.GeneralDate)
     End Sub
 
     Private Sub radShortDate_CheckedChanged(sender As Object, e As EventArgs) Handles radShortDate.CheckedChanged
-        Dim day As Date = Date.Now
-        lblDate.Text = day.Date
+        Dim shortDate As Date = Date.Now
+        lblDate.Text = shortDate.Date
+        'lblDate.Text = FormatDateTime(Today, DateFormat.ShortDate)
     End Sub
 
     Private Sub radLongDate_CheckedChanged(sender As Object, e As EventArgs) Handles radLongDate.CheckedChanged
-        Dim LongDate As String = Format(Now, "Long Date")
-        lblDate.Text = LongDate
+        'Dim LongDate As String = Format(Now, "Long Date")
+        'lblDate.Text = LongDate
+        lblDate.Text = FormatDateTime(Today, DateFormat.LongDate)
 
     End Sub
 End Class

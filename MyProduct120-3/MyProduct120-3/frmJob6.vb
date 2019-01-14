@@ -20,21 +20,21 @@
 
                 gbItems.Enabled = False
                 gbFree.Enabled = False
+                chkItemsAdd1.Checked = False
+                chkItemsAdd2.Checked = False
+                chkItemsAdd3.Checked = False
+                chkItemsAdd4.Checked = False
+                chkFree1.Checked = False
+                chkFree2.Checked = False
+                chkFree3.Checked = False
                 lblPaidPrice.Text = 0
-
-
             Else
                 chkCarForMe.Checked = True
-                gbItems.Enabled = True
-                gbFree.Enabled = True
-
 
             End If
-            result = DialogResult.Yes
-            gbItems.Enabled = False
-            gbFree.Enabled = False
-
-
+            'result = DialogResult.Yes
+            'gbItems.Enabled = False
+            'gbFree.Enabled = False
 
         End If
     End Sub
@@ -42,7 +42,6 @@
     Private Sub frmJob6_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         gbItems.Enabled = False
         gbFree.Enabled = False
-
     End Sub
 
     Private Sub chkFree1_CheckedChanged(sender As Object, e As EventArgs) Handles chkFree1.CheckedChanged
@@ -58,7 +57,6 @@
             lblPaidPrice.Text = Val(lblPaidPrice.Text) - Val(lblFree2.Text)
         Else
             lblPaidPrice.Text = Val(lblPaidPrice.Text) + Val(lblFree2.Text)
-
         End If
 
     End Sub
@@ -68,7 +66,6 @@
             lblPaidPrice.Text = Val(lblPaidPrice.Text) - Val(lblFree3.Text)
         Else
             lblPaidPrice.Text = Val(lblPaidPrice.Text) + Val(lblFree3.Text)
-
         End If
 
     End Sub
@@ -78,7 +75,6 @@
             lblPaidPrice.Text = Val(lblPaidPrice.Text) + Val(lblItemsAdd1.Text)
         Else
             lblPaidPrice.Text = Val(lblPaidPrice.Text) - Val(lblItemsAdd1.Text)
-
         End If
     End Sub
 
@@ -87,7 +83,6 @@
             lblPaidPrice.Text = Val(lblPaidPrice.Text) + Val(lblItemsAdd2.Text)
         Else
             lblPaidPrice.Text = Val(lblPaidPrice.Text) - Val(lblItemsAdd2.Text)
-
         End If
     End Sub
 
@@ -96,7 +91,6 @@
             lblPaidPrice.Text = Val(lblPaidPrice.Text) + Val(lblItemsAdd3.Text)
         Else
             lblPaidPrice.Text = Val(lblPaidPrice.Text) - Val(lblItemsAdd3.Text)
-
         End If
     End Sub
 
@@ -105,7 +99,6 @@
             lblPaidPrice.Text = Val(lblPaidPrice.Text) + Val(lblItemsAdd4.Text)
         Else
             lblPaidPrice.Text = Val(lblPaidPrice.Text) - Val(lblItemsAdd4.Text)
-
         End If
     End Sub
 End Class

@@ -22,5 +22,100 @@ MyProduct120-3
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:MyProduct120_3.My.Resources.Resources._580636_636352869857574491_16x9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.computer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.conversation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.diploma">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.icons8_cloud_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.icons8_connected_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.icons8_fast_forward_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.icons8_mac_client_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.icons8_pause_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.icons8_rewind_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.icons8_shuffle_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.icons8_stack_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.icons8_sync_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.icons8_sync_501">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.icons8_upload_to_cloud_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.icons8_windows_client_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.lightbulb">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.social_media">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MyProduct120_3.My.Resources.Resources.worldwide">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

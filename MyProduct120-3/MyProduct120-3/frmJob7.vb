@@ -18,19 +18,19 @@
     End Sub
 
     Private Sub btnMove_Click(sender As Object, e As EventArgs) Handles btnMove.Click
-        '>
-
-        If lstAdd.Items.Count = 0 Then
-            MessageBox.Show("ใหม่")
+        Dim a, b As Integer
+        a = lstAdd.Items.Count
+        If a = 0 Then
+            MessageBox.Show("ไม่มีตัวเลือก", "โปรแกรมควบคุม ListBox-ComboBox ", MessageBoxButtons.OK, MessageBoxIcon.None)
         Else
-            cb0Output.Items.Add(lstAdd.SelectedItem) 'ข้อ4//
-            'lstAdd.Items.Remove(lstAdd.SelectedItem)
-            If lstAdd.SelectedIndex = lstAdd.Items.Count - 1 Then
-                lstAdd.Items.RemoveAt(lstAdd.SelectedIndex)
+            cb0Output.Items.Add(lstAdd.SelectedItem)
+            b = lstAdd.SelectedIndex
+            If lstAdd.SelectedIndex = lstAdd.Items.Count - 1 Then 'item
+                lstAdd.Items.RemoveAt(lstAdd.SelectedIndex) 'item
                 lstAdd.SelectedIndex = lstAdd.Items.Count - 1
             Else
                 lstAdd.Items.RemoveAt(lstAdd.SelectedIndex)
-
+                lstAdd.SelectedIndex = b
             End If
             cb0Output.SelectedIndex = cb0Output.Items.Count - 1
         End If
@@ -48,7 +48,7 @@
         'lst = lstAdd.Items.Count
 
         If lstAdd.Items.Count < 1 Then
-            MessageBox.Show("ไม่มี")
+            MessageBox.Show("ไม่มีตัวเลือก", "โปรแกรมควบคุม ListBox-ComboBox ", MessageBoxButtons.OK, MessageBoxIcon.None)
         Else
             For ma = 1 To lstAdd.Items.Count
                 cb0Output.Items.Add(lstAdd.SelectedItem)
@@ -64,11 +64,11 @@
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         '<
         If cb0Output.Items.Count < 1 Then
-            MessageBox.Show("ไม่มี")
+            MessageBox.Show("ไม่มีตัวเลือก", "โปรแกรมควบคุม ListBox-ComboBox ", MessageBoxButtons.OK, MessageBoxIcon.None)
         Else
             cb0Output.Text = ""
             lstAdd.Items.Add(cb0Output.SelectedItem)
-            cb0Output.Items.Remove(cb0Output.SelectedIndex)
+            cb0Output.Items.Remove(cb0Output.SelectedItem)
             lstAdd.SelectedIndex = lstAdd.Items.Count - 1
             cb0Output.SelectedIndex = cb0Output.Items.Count - 1
         End If
@@ -78,7 +78,7 @@
     Private Sub btnBackAll_Click(sender As Object, e As EventArgs) Handles btnBackAll.Click
         '<<
         If cb0Output.Items.Count < 1 Then
-            MessageBox.Show("ไม่มี")
+            MessageBox.Show("ไม่มีตัวเลือก", "โปรแกรมควบคุม ListBox-ComboBox ", MessageBoxButtons.OK, MessageBoxIcon.None)
         Else
             For ba = 1 To cb0Output.Items.Count
                 lstAdd.Items.Add(cb0Output.SelectedItem)

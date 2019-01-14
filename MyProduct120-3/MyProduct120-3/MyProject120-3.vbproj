@@ -102,6 +102,18 @@
     <Compile Include="frmLab5.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmLab8.Designer.Vb">
+      <DependentUpon>frmLab8.Vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLab8.Vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmProduct.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +159,12 @@
     <EmbeddedResource Include="frmLab5.resx">
       <DependentUpon>frmLab5.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLab8.resx">
+      <DependentUpon>frmLab8.Vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmProduct.resx">
       <DependentUpon>frmProduct.vb</DependentUpon>
     </EmbeddedResource>
@@ -171,6 +189,63 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580636-636352869857574491-16x9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\social-media.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cloud-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-connected-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mac-client-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stack-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sync-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-upload-to-cloud-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-windows-client-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-fast-forward-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pause-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-rewind-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-shuffle-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sync-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conversation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diploma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightbulb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worldwide.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -34,11 +34,6 @@
                     lblDiscount.Text = "ไม่มีส่วนลด"
                     lblPaid.Text = lblTotal.Text
                     lblCredit.Text = lblTotal.Text
-
-
-
-
-
                 End If
 
             ElseIf radOther.Checked = True Then
@@ -58,7 +53,6 @@
         unit = Val(txtUnit.Text)
         decTotal = totalprice * unit
         lblTotal.Text = decTotal
-
     End Sub
 
     Private Sub txtPrice_TextChanged(sender As Object, e As EventArgs) Handles txtPrice.TextChanged
@@ -73,11 +67,14 @@
     End Sub
 
     Private Sub radOther_CheckedChanged(sender As Object, e As EventArgs) Handles radOther.CheckedChanged
-
-        gbPay.Enabled = False
-        radPaid.Enabled = True
-
+        If radOther.Checked = True Then
+            gbPay.Enabled = False
+            radPaid.Enabled = True
+            radCredit.Enabled = False
+        Else
+            gbPay.Enabled = False
+            radPaid.Enabled = True
+            radCredit.Enabled = True
+        End If
     End Sub
-
-
 End Class
